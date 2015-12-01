@@ -6,7 +6,7 @@ import itertools
 import __future__
 
 print "\nSearching for answers ... \n"
-numlist = list(set(map("".join,itertools.permutations('3388')))) 
+numlist = list(set(map("".join,itertools.permutations('44XX')))) 
 #print numlist
 oplist = list(map("".join,itertools.product('+-*/', repeat=3)))
 #print oplist
